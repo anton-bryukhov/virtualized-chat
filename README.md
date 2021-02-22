@@ -3,6 +3,9 @@
 ## Запуск
 
 ```shell
+# Клонирование репозитория
+git clone https://github.com/anton-bryukhov/virtualized-chat.git
+
 # Установка пакетов
 npm i
 
