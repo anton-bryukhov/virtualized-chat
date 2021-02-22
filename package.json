@@ -1,0 +1,28 @@
+{
+  "name": "virtualized-chat",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "serve-production": "webpack serve --open --config webpack.prod.js",
+    "start-mock-server": "PORT=3000 node mockServer/index.js"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/styled-components": "^5.1.7",
+    "eslint": "^7.20.0",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.1.5",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
